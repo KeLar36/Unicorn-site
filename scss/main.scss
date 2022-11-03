@@ -1,0 +1,191 @@
+@import "settings";
+
+body {
+	font-family: $font-primary;
+	font-size: $fs-base-desktop;
+}
+
+.navbar {
+	background-color: $color1;
+	border-bottom: 2px solid $color2;
+}
+
+.navbar-brand {
+	color: $color2;
+}
+
+.navbar-toggler-icon {
+	color: $color2;
+}
+
+.navbar-brand:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.nav-link {
+	color: $color2;
+	width: 100px;
+}
+
+.head-container {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.row-1 {
+	width: 100%;
+	background-color: $color1;
+	height: 800px;
+}
+
+.modal-content {
+	color: $color1;
+	background-color: $color1;
+}
+
+.dark-green {
+	background-color: $color1;
+}
+
+input[type="email"]::placeholder {
+	color: $color1;
+}
+
+input[type="email"]:focus {
+	outline: none;
+}
+
+input[type="email"] {
+	border: none;
+	border-bottom: 1px solid $color2;
+	color: $color1
+}
+
+.autoimg {
+	width: 100%;
+	object-fit: contain;
+	height: 500px;
+	filter: drop-shadow(22px 23px 13px rgba(0, 0, 0, 0.28));
+}
+
+.title,
+.text {
+	color: $color2;
+}
+
+.title {
+	font-size: 68px;
+}
+
+.text {
+	font-size: 24px;
+}
+
+.btn {
+	width: 291px;
+	height: 54px;
+	border: 2px solid $color2;
+	border-radius: 100px;
+	background-color: transparent;
+	color: $color2;
+	font-size: 1.125rem;
+}
+
+.btn:hover {
+	color: $color1;
+	background-color: $color2;
+}
+
+.text-green {
+	color: $color1;
+	font-size: 24px;
+}
+
+.text-greeen-bold {
+	font-weight: map-get($map: $fw, $key: semi-bold);
+	color: $color1;
+}
+
+.title-green {
+	color: $color1;
+}
+
+.font-second {
+	font-family: $font-secondary;
+}
+
+.custom-margin {
+	margin-top: 180px;
+}
+
+.big-title {
+	font-size: 80px;
+	color: $color2;
+	line-height: 96px;
+}
+
+.bold {
+	font-weight: map-get($map: $fw, $key: semi-bold);
+}
+
+.center {
+	text-align: center;
+}
+
+.size {
+	font-size: 24px;
+}
+.footer-text{
+	text-align: center;
+}
+
+.last>.text-green {
+	margin: 0 auto;
+}
+
+@media screen and (max-width:992px) {
+	body {
+		font-size: 14px;
+	}
+
+	.title {
+		font-size: 48px;
+	}
+
+	.head-container {
+		width: 95%;
+	}
+
+	.navbar {
+		position: sticky;
+	}
+
+	.center {
+		text-align: left;
+	}
+
+	.nav-link {
+		margin: 0 auto;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	.big-title {
+		font-size: 48px;
+		line-height: normal;
+	}
+
+	.nav-link {
+		font-size: 14px;
+		max-width: 80%
+	}
+
+	.text-green {
+		max-width: 95%;
+	}
+	.footer-text{
+		text-align: left;
+	}
+	
+}

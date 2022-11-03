@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Landing Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/css/uikit.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.11/dist/js/uikit-icons.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg d-flex flex-row justify-content-between w-100 m-0">
+    <div class="container head-container">
+      <a class="navbar-brand" href="index.html">KELAR</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav"
+        aria-label="Expand navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-0 ms-lg-5 d-flex justify-content-center">
+          <li class="nav-item d-flex">
+            <a class="nav-link text-decoration-none" href="#1">Section 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="#2">Section 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="#3">Section 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-decoration-none" href="#4">Section 4</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div uk-scrollspy="uk-animation-slide-left" class="container-fluid dark-green pb-2" id="1">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-12 offset-xxl-2 col-lg-3 order-1 order-lg-0">
+        <h1 class="title mt-5 ">Choose your destiny</h1>
+        <p class="text mt-3">Each unicorn has its own personality and symbolism. Get to know your new mascot and
+          surround yourself with a strong ally. Thus choose the brave one and you will be able to face any situation.
+          Take the sweet Cornelia and protect your health. If you need more luck, meet the Magic Cornelia! If you’re
+          born to be bold, choose the Impetuous Cornelia : nothing will defeat you.</p>
+        <button class="btn mt-3 mb-3">Learn more about her story</button>
+      </div>
+      <div class="col-12 col-lg-7">
+        <img src="img/figure.png" alt="figure" class="autoimg">
+      </div>
+    </div>
+  </div>
+  <div uk-scrollspy="uk-animation-slide-right" class="container-fluid mt-5" id="2">
+    <div class="row row d-flex align-items-center justify-content-sm-around">
+      <div class="col-12 col-lg-3 order-0 offset-lg-1">
+        <img src="img/figure_2.png" alt="figure-2" class="autoimg">
+      </div>
+      <div class="col-12 col-lg-4 offset--3">
+        <h1 class="title mt-sm-5 mt-lg-0">Always
+          Go futher</h1>
+        <p class="text-green mt-5">Decline Cornelia as you wish! Black, dark grey, white, light grey, prussian blue ...
+          Choose your colour, size and characteristics! And if that's not enough, personalise it to make it unique, in
+          your own image. So open up the field of possibilities, the world is yours !</p>
+        <img src="img/muouse-icon.png" alt="mouse-icon"> <span class="text-greeen-bold d-inline-block mt-5 ms-1">SCROLL
+          TO KNOW MORE</span>
+      </div>
+    </div>
+  </div>
+  <div uk-scrollspy="uk-animation-slide-left" class="container-fluid mt-5" id="3">
+    <div class="row row d-flex align-items-center justify-content-sm-around">
+      <div class="col-12 col-lg-3 order-0 order-lg-1 offset-lg-1">
+        <img src="img/figure_3.png" alt="figure-3" class="autoimg">
+      </div>
+      <div class="col-12 col-lg-4 offset--3">
+        <h1 class="title-green mt-sm-5 mt-lg-0 ">Premium 3D
+          Quality</h1>
+        <p class="text-green mt-5">Now the difference between a unicorn and a pegasus is quite clear a unicorn has a
+          horn which usually stores their magically powers while a pegasus can only fly with its gorgeous wings. Now the
+          difference between a unicorn and a pegasus is quite clear a unicorn has a horn.</p>
+        <img src="img/muouse-icon.png" alt="mouse-icon"> <span class="text-greeen-bold d-inline-block mt-5 ms-1">SCROLL
+          TO KNOW MORE</span>
+      </div>
+    </div>
+  </div>
+  <div uk-scrollspy="uk-animation-slide-bottom" class="container-fluid custom-margin" id="4">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center align-items-center font-second">
+        <h1 class="big-title mb-5">Let the magic happen</h1>
+      </div>
+      <div class="col-12 last">
+        <p class=" text-green footer-text w-100 w-lg-50">Surround yourself with the most
+          faithful companions and embark together on fantastic new adventures! Pocket, medium or XXL format, find
+          the Cornelia that best suits your environment.</p>
+        <p class="text-green footer-text w-100 w-lg-50"> <span class="bold"> Oh, and don't worry:
+          </span> Cornelia feeds on your bad vibes,
+          no need to give her water or grass!</p>
+      </div>
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <img src="img/figures.png" alt="figutes" class="autoimg">
+      </div>
+    </div>
+  </div>
+</body>
+
+
+</html>
